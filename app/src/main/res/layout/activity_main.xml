@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="192dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/txtPriMen"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="178dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@drawable/games" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="10dp"
+                android:text="Sector de video juegos, ya que es un sector muy amplio, además cualquier persona con un dispositivo móvil puede tener acceso a la aplicación, también en los últimos años se ha visto como este mercado ha ido creciendo y dado la oportunidad de que juegos de otras plataformas tenga también su versión móvil." />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="20dp"
+                android:text="CROSS ROAD" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                app:srcCompat="@drawable/froggy" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Seria una app en la que una ranita intenta cruzar la calle sin ser golpeada por los vehículos, es una idea y juego ya existente, pero es una excelente idea para empezar y desarrollar el primer video juego, es un escenario y mecánica simple que para un principiante puede ser la mejor opción para empezar a introducirse en el mundo de los video juegos móviles." />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="120dp"
+                android:layout_marginLeft="120dp"
+                android:onClick="siguiente"
+                android:backgroundTint="#D0D3D4"
+                android:textColor="#5F6A6A"
+                android:text="@string/btnSiguiente" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

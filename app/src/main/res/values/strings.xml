@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CROSS ROAD</string>
+    <string name="txtPriMen">Sector de video Juegos</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="respuesta">Sector de video juegos, ya que es un sector muy amplio que permite que cualquier persona pueda teneracceso a la aplicacion, </string>
+
+    <string name="txtFormulario">Formulario de Suscripción</string>
+    <string name="btnEviar">Enviar</string>
+    <string name="txtNombres">Nombres</string>
+    <string name="txtApellido">Apellido</string>
+    <string name="txtCorreo">Correo</string>
+
+    <string name="txtGracias">Gracias por Suscribirte a CROSS ROAD</string>
+
+    <string name="txtInfoFormulario">Formulario</string>
+    <string name="btnSalir">Salir</string>
+</resources>
